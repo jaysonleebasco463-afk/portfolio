@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jayson Lee Basco — Portfolio</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <nav>
+        <a href="#top" class="nav-logo" aria-label="Back to top"><strong>JLB</strong></a>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#skills">Skills</a>
+          <a href="#works">Works</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <button class="theme" id="theme" aria-label="Toggle light or dark theme">◐</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="wrap">
+
+    <header class="hero">
+      <img src="images/profile.jpg" alt="Portrait of Jayson Lee Basco" width="160" height="160">
+      <div>
+        <h1>Jayson Lee Basco</h1>
+        <p>I am a BSIT Graduate from National College of Science and Technology in Dasmarinas, Cavite. I have created 4
+          projects in total that you can view in this portfolio. I also have the essential skills for JavaScript, Web
+          Development, Python, and more.</p>
+      </div>
+    </header>
+
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+    </section>
+
+    <section id="works" class="reveal">
+      <h2>Works</h2>
+      <div class="grid">
+        <article class="card reveal reveal-d1" tabindex="0"><img src="images/tickoff.jpg" alt="Tickoff task tracker landing page"
+            width="900" height="425" loading="lazy">
+          <div class="body"><span class="tag">Web Dev / JavaScript</span>
+            <h3>Tickoff</h3>
+            <p>A task tracker website I made for future project selling. This is an ongoing project, and I am still
+              developing the essential functionalities and features for this system. It was created earlier this year,
+              in the first quarter.</p>
+            <p class="stack">HTML · JavaScript · Bootstrap · Laravel · MySQL</p>
+          </div>
+        </article>
+        <article class="card reveal reveal-d2" tabindex="0"><img src="images/smart-campus-portal.jpg"
+            alt="Smart Campus Portal student directory screen" width="900" height="425" loading="lazy">
+          <div class="body"><span class="tag">Web Dev / Database Querying</span>
+            <h3>Smart Campus Portal</h3>
+            <p>A system I made for future project selling, which could be sold to an institution or a state university.
+            </p>
+            <p class="stack">HTML · JavaScript · Bootstrap · Vue · Inertia · Node.js · Laravel · MySQL</p>
+          </div>
+        </article>
+        <article class="card reveal reveal-d3" tabindex="0"><img src="images/cafe-no-basco.jpg"
+            alt="Cafe no Basco website homepage showing a lighthouse on a green hill at dusk" width="900" height="425"
+            loading="lazy">
+          <div class="body"><span class="tag">Web Development</span>
+            <h3>Cafe no Basco</h3>
+            <p>The newest coffee shop in Imus City, Cavite. Premium coffee and pastries can be ordered on their website,
+              which I built and maintain.</p>
+            <p class="stack">HTML · JavaScript · Tailwind CSS · Vue · Inertia · Node.js · Laravel · MySQL</p>
+          </div>
+        </article>
+        <article class="card reveal reveal-d4" tabindex="0"><img src="images/ankop.jpg"
+            alt="Ankop website homepage, a Philippine clothing and creator marketplace" width="900" height="426"
+            loading="lazy">
+          <div class="body"><span class="tag">Web Development</span>
+            <h3>Ankop</h3>
+            <p>A platform website for up-and-coming local clothing lines in the Philippines, from streetwear to modern
+              fashion. Built for a client in Metro Manila.</p>
+            <p class="stack">HTML · JavaScript · Bootstrap · Laravel · MySQL</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="reveal">
+      <h2>Education</h2>
+      <div class="item">
+        <div class="when">2024 – 2028</div>
+        <div>
+          <h3>National College of Science and Technology</h3>
+          <p>Bachelor of Science in Information and Technology</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="reveal">
+      <h2>Experience</h2>
+      <div class="item reveal reveal-d1">
+        <div class="when">Jan – May 2026</div>
+        <div>
+          <h3>Freelance Front-End Developer</h3>
+          <p>Designed and built a booking website for a local business using JavaScript, plus a small SQL database to
+            store reservations and customer details.</p>
+        </div>
+      </div>
+      <div class="item reveal reveal-d2">
+        <div class="when">Jun – Aug 2025</div>
+        <div>
+          <h3>Web Development Intern, Brightlane Digital</h3>
+          <p>Built responsive pages and reusable UI components in JavaScript, connected them to a SQL-backed API, and
+            fixed cross-browser layout bugs on client sites.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p>Open to internships and small web projects.</p>
+      <div class="links">
+        <a class="mail" href="mailto:jaysonleebasco463@gmail.com" id="mail"><svg viewBox="0 0 24 24" width="22"
+            height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path d="m3 7 9 6 9-6" />
+          </svg><span>jaysonleebasco463@gmail.com</span></a>
+        <a class="lnk" href="https://www.facebook.com/jaysonlee.pulgabasco" target="_blank"
+          rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"
+            aria-hidden="true">
+            <path
+              d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.88v2.26h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z" />
+          </svg><span>My Facebook</span></a>
+        <a class="lnk" href="https://github.com/jaysonleebasco463-afk" target="_blank" rel="noopener noreferrer"><svg
+            viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.921.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+          </svg><span>My GitHub</span></a>
+      </div>
+    </section>
+
+    <footer>© 2026 Jayson Lee Basco</footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
